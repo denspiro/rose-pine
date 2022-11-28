@@ -2,29 +2,29 @@ local p = require('rose-pine.palette')
 
 return {
 	normal = {
-		a = { bg = p.rose, fg = p.base, gui = 'bold' },
+		a = { bg = p.overlay, fg = p.rose, gui = 'bold' },
 		b = { bg = p.overlay, fg = p.rose },
-		c = { bg = p.base, fg = p.text },
+		c = { bg = p.overlay, fg = p.rose },
 	},
 	insert = {
-		a = { bg = p.foam, fg = p.base, gui = 'bold' },
+		a = { bg = p.overlay, fg = p.foam, gui = 'bold' },
 		b = { bg = p.overlay, fg = p.foam },
-		c = { bg = p.base, fg = p.text },
+		c = { bg = p.overlay, fg = p.foam },
 	},
 	visual = {
-		a = { bg = p.iris, fg = p.base, gui = 'bold' },
+		a = { bg = p.overlay, fg = p.iris, gui = 'bold' },
 		b = { bg = p.overlay, fg = p.iris },
-		c = { bg = p.base, fg = p.text },
+		c = { bg = p.overlay, fg = p.iris },
 	},
 	replace = {
-		a = { bg = p.pine, fg = p.base, gui = 'bold' },
+		a = { bg = p.overlay, fg = p.pine, gui = 'bold' },
 		b = { bg = p.overlay, fg = p.pine },
-		c = { bg = p.base, fg = p.text },
+		c = { bg = p.overlay, fg = p.pine },
 	},
 	command = {
-		a = { bg = p.love, fg = p.base, gui = 'bold' },
-		b = { bg = p.overlay, fg = p.love },
-		c = { bg = p.base, fg = p.text },
+		a = { bg = p.overlay, fg = p.gold, gui = 'bold' },
+		b = { bg = p.overlay, fg = p.gold },
+		c = { bg = p.overlay, fg = p.gold },
 	},
 	inactive = {
 		a = { bg = p.base, fg = p.muted, gui = 'bold' },
